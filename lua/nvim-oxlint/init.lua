@@ -50,6 +50,7 @@ function M.make_settings(buffer)
 	local settings_with_function = {
 		run = M.user_config.run or "onType",
 		enable = M.user_config.enable or true,
+		typeAware = M.user_config.type_aware or false,
 		configPath = M.user_config.config_path or ".oxlintrc.json",
 		workingDirectory = { mode = "location" },
 		workspaceFolder = function(bufnr)
