@@ -28,7 +28,7 @@
   "soulsam480/nvim-oxlint",
   opts = {
     run = 'onSave',
-    config_path = '.oxlintrc.json'
+    config_path = '.oxlintrc.json',
     enable = true,
     type_aware = true
   }
